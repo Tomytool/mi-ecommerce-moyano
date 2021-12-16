@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(114, 114, 248);
+}
+
+.navbar img {
+  width: 50px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+.navbar li {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar li:hover {
+  color: rgb(2, 2, 214);
+}
